@@ -1,0 +1,82 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify content: center;
+}
+
+nav {
+    background: #f6ebf4;
+    padding: 2.5%;
+    float: left;
+    width: 400px;
+    height: 2000px;
+    color: #f6ebf4;
+    border-right: 10px solid #482673;
+}
+
+nav h3 {
+    margin-top: 50px;
+    font-size: 30px;
+    cursive;
+    font-weight: semi-bold;
+    line-height: 60px;
+    color: #482673;
+}
+
+nav ul {list-style: none}
+nav ul li, nav ul a {
+    color: black;
+    margin-top: 20px;
+    transition: transform .4s ease;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+nav ul li:hover, aside ul a:hover {
+    color: red;
+    text-decoration: none;
+    transform: scale(1.2);
+}
+
+main {
+    padding-left: 2.5%;
+    padding-top: 5%;
+    width: 80%;
+    float: left;
+    height: 2000px;
+}
+
+img {
+    max-height: 400px;
+    border-radius: 10%;
+}
+
+header h1 {
+    cursive;
+    font-size: 65px;
+    font-weight: semi-bold;
+    line-height: 60px;
+    color: #482673;
+    position:absolute;
+    top:20px;
+    text-align: center;
+    width: 100%
+}
+
+.card {
+    color: #482673;
+}
+
+.textinside {
+    margin: 2.5%;
+}
+
+.else {
+    padding: 20%;
+    text-align: center;
+}
+.else h1 {
+    font-size: 250px;
+}
